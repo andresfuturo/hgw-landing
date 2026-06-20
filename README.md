@@ -17,7 +17,7 @@ Landing page moderna y responsive diseñada para HGW (Bienestar que Transforma t
 
 1. **Hero**: "BIENESTAR QUE TRANSFORMA TU VIDA" con CTAs
 2. **¿Qué es HGW?**: Tres pilares (Bienestar, Ahorro, Oportunidad)
-3. **Productos Destacados**: Grid con productos HGW (Berry Coffee, Choco Gano, Tourmaline Toothpaste, etc.)
+3. **Productos Destacados**: Grid con 3 productos HGW (Berry Coffee, Choco Gano, Tourmaline Toothpaste)
 4. **¿Por qué HGW?**: Beneficios y razones para elegir HGW
 5. **Historias de Transformación**: Testimonios de usuarios
 6. **El Ecosistema HGW**: Flujo visual del modelo de negocio
@@ -123,13 +123,28 @@ Edita directamente el texto en `index.html`:
 
 ### Agregar imágenes de productos reales
 
-Para usar las imágenes reales de los productos:
-1. Crea una carpeta `images` en el proyecto
-2. Agrega tus imágenes de productos
-3. Reemplaza los emojis en las cards de productos por:
-   ```html
-   <img src="images/berry-coffee.jpg" alt="Berry Coffee" class="w-full h-full object-cover">
+El proyecto ya tiene la carpeta `images/` creada. Para agregar las imágenes de los productos:
+
+1. **Nombres de archivo requeridos:**
+   - `berry-coffee.jpg` para Berry Coffee
+   - `choco-gano.jpg` para Choco Gano
+   - `tourmaline-toothpaste.jpg` para Tourmaline Toothpaste
+
+2. **Coloca las imágenes en la carpeta:**
    ```
+   landing-page-github/
+   ├── images/
+   │   ├── berry-coffee.jpg
+   │   ├── choco-gano.jpg
+   │   └── tourmaline-toothpaste.jpg
+   ├── index.html
+   └── README.md
+   ```
+
+3. **Formato recomendado:**
+   - JPG o PNG
+   - Dimensiones: 500x500px o cuadradas
+   - Tamaño: Menos de 200KB para carga rápida
 
 ## 📱 Vista Previa Local
 
